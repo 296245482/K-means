@@ -80,14 +80,13 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 clc;
 clear;
-close all;
-choose = 1;
-kmean(choose);
+kmean(1);
 
 % --- Executes on button press in pushbutton2.
 function pushbutton2_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-choose = 2;
-kmean(choose);
+clc;
+clear;
+kmean(2);
